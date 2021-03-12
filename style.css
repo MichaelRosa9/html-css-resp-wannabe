@@ -23,13 +23,13 @@
   text-align: center;
 }
 
-@media screen and (max-width: 480px) {  
+@media screen and (max-width: 420px) {  
   body {    
     margin: 0;  
   }
 }
 
-@media screen and (max-width: 480px) {  
+@media screen and (max-width: 420px) {  
   #lezioni .row {   
     margin: 0; 
     font-size: 170%;
@@ -90,7 +90,7 @@
   padding: 30px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
   #why .row {
     margin: 0;
     font-size: 170%;
