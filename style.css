@@ -59,13 +59,15 @@
 }
 
 @media screen and (max-width: 480px) {
-  #steps .row {    
+  #steps .row {  
+    margin: 0; 
     font-size: 170%; 
   }
   #steps .row > .left,
   #steps .row > .central,
   #steps .row > .right {
-    float: none;    
+    float: none;
+    width: 90%;
     margin: auto;    
   }
 }
@@ -78,7 +80,7 @@
 #why .row > .first,
 #why .row > .second,
 #why .row > .third {
-  width: 100%;
+  width: 90%;
   margin-top: 80px;
 }
 
@@ -90,18 +92,22 @@
 
 @media screen and (max-width: 480px) {
   #why .row {
-    font-size: 170%;  
+    margin: 0;
+    font-size: 170%;
     background-color: #F0F0C8;
   }
-  #why .row>.left,
-  #why .row>.right {
+  #why .row> .first,
+  #why .row> .second,
+  #why .row> .third {
     float: none;
+    width: 90%;
     margin: auto;    
   }
   #why h1 {
     padding-top: 20px;
   }
   #why hr {
+    
     border-color: black;
   }
 }
